@@ -1,0 +1,6 @@
+package com.example.reactivemongotransactions.repository
+
+import com.example.reactivemongotransactions.model.ApplicationData
+import org.springframework.data.repository.reactive.ReactiveCrudRepository
+
+interface ApplicationRepository : ReactiveCrudRepository<ApplicationData, String>
